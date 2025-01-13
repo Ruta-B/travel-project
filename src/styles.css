@@ -1,0 +1,9 @@
+body{
+    background: linear-gradient(to bottom, #3A086B,#009CB5) no-repeat fixed;
+}
+h1{
+ font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
