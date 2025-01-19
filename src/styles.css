@@ -32,13 +32,12 @@ section.secondary {
 }
 .card {
   background-color: white;
-
-  padding: 20px;
+  
 }
 
-.card-header {
+.card-header.grid {
   padding: 10px;
- 
+  grid-gap: 0;
 }
 
 .card-body {
@@ -49,8 +48,16 @@ section.secondary {
   text-align: center;
   background-color: #0a798a;
   color: white;
+  font-size: 12px;
 }
-
+.img-responsive {
+  width: 100%;
+  display: block;
+}
+.embed {
+  width: 100%;
+ 
+}
 .text-center {
   text-align: center;
 }
@@ -125,13 +132,11 @@ main p {
 main a {
   margin-top: 15px;
 }
-.card-body p{
+.card-body p {
   font-weight: 400;
-font-size: 12px;
-}
-.card-body a{
   font-size: 12px;
 }
+
 footer {
   font-size: 12px;
   color: white;
