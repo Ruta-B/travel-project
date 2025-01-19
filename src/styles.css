@@ -32,7 +32,6 @@ section.secondary {
 }
 .card {
   background-color: white;
-  
 }
 
 .card-header.grid {
@@ -56,7 +55,6 @@ section.secondary {
 }
 .embed {
   width: 100%;
- 
 }
 .text-center {
   text-align: center;
@@ -136,7 +134,28 @@ main a {
   font-weight: 400;
   font-size: 12px;
 }
-
+.worth-to-see {
+  margin: 30px;
+  line-height: 1.5;
+  text-align: center;
+  max-width: 1200px;
+}
+.worth-to-see h4 {
+  font-size: 28px;
+  text-align: center;
+}
+.worth-to-see a {
+  font-size: 14px;
+  display: inline-block;
+  margin: 0 auto;
+}
+.grid.activities {
+  width: 100%;
+  grid-gap: 20px;
+  background-color: rgb(226, 222, 222);
+  padding: 20px;
+  aspect-ratio: 16/9;
+}
 footer {
   font-size: 12px;
   color: white;
@@ -195,7 +214,16 @@ footer p {
     padding: 8px 16px;
     font-size: 11px;
   }
-
+  .grid.activities {
+    width: 100%;
+    grid-gap: 5px;
+    background-color: rgb(226, 222, 222);
+    padding: 10px;
+    aspect-ratio: 16/9;
+  }
+  .worth-to-see img{
+    display: none;
+  }
   footer {
     font-size: 12px;
   }
