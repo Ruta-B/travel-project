@@ -18,12 +18,42 @@ body {
 .grid-3-columns {
   grid-template-columns: 1fr 2fr 2fr;
 }
+.grid-3 {
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 20px;
+}
 section {
-  max-width: 1200px;
   margin: 0 auto;
   padding: 100px 50px;
 }
+section.secondary {
+  background-color: rgb(226, 222, 222);
+  max-width: 100%;
+}
+.card {
+  background-color: white;
 
+  padding: 20px;
+}
+
+.card-header {
+  padding: 10px;
+ 
+}
+
+.card-body {
+  padding: 0 20px;
+}
+.btn {
+  display: block;
+  text-align: center;
+  background-color: #0a798a;
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../images/castle-ruins.jpg");
@@ -91,10 +121,17 @@ main p {
   font-size: 14px;
   line-height: 1.5;
 }
+
 main a {
   margin-top: 15px;
 }
-
+.card-body p{
+  font-weight: 400;
+font-size: 12px;
+}
+.card-body a{
+  font-size: 12px;
+}
 footer {
   font-size: 12px;
   color: white;
