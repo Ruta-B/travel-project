@@ -121,7 +121,7 @@ main h2 {
 }
 
 main p {
-  opacity: 0.7;
+  opacity: 0.8;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.5;
@@ -132,7 +132,7 @@ main a {
 }
 .card-body p {
   font-weight: 400;
-  font-size: 12px;
+  font-size: 13px;
 }
 .worth-to-see {
   margin: 30px;
@@ -157,7 +157,7 @@ main a {
   aspect-ratio: 16/9;
 }
 footer {
-  font-size: 12px;
+  font-size: 14px;
   color: white;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url("../images/limbazi-city.png");
