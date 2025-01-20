@@ -149,6 +149,9 @@ main a {
   display: inline-block;
   margin: 0 auto;
 }
+.worth-to-see p{
+  opacity: none;
+}
 .grid.activities {
   width: 100%;
   grid-gap: 20px;
