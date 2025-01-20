@@ -151,6 +151,7 @@ main a {
 }
 .worth-to-see p{
   opacity: none;
+  line-height: 1.5;
 }
 .grid.activities {
   width: 100%;
